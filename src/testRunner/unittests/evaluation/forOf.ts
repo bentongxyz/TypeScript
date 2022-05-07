@@ -1,5 +1,5 @@
 describe("unittests:: evaluation:: forOfEvaluation", () => {
-    it("es5 over a array with no Symbol", () => {
+    it("es5 over an array with no Symbol", () => {
         const result = evaluator.evaluateTypeScript(`
             Symbol = undefined;
             export var output = [];
